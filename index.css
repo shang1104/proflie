@@ -1,0 +1,284 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.text-SFPro {
+  font-family: SF Pro Text;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 1.1875;
+  padding-top: 40px;
+  padding-bottom: 22px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid black;
+}
+
+.container img {
+  vertical-align: middle;
+  margin: 48px 0;
+}
+
+.container img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.profile h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid black;
+}
+
+.profile h2 span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 16px;
+  color: #A00404;
+}
+
+.profile ul {
+  margin-bottom: 24px;
+}
+
+.profile ul li {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.education {
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.education h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.education h2 span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 16px;
+  color: #A00404;
+}
+
+.education ul li {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.skills {
+  text-align: center;
+  background-color: #415165;
+  color: white;
+}
+
+.skills .container {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.skills h2 {
+  font-weight: 500;
+  width: 996px;
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 1.5;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+}
+
+.skills h2 span {
+  font-weight: 600;
+}
+
+.skills ul {
+  margin-top: 40px;
+}
+
+.skills ul li {
+  margin: 0px auto;
+  padding: 4px 0;
+  width: 225px;
+  font-size: 24px;
+  line-height: 1.5;
+  border-left: 1px solid white;
+  padding-left: 24px;
+}
+
+.experience {
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+
+.experience h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  padding-bottom: 7px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+
+.experience h2 span {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 16px;
+  color: #A00404;
+  font-weight: 600;
+}
+
+.experience ul {
+  padding-left: 24px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  border-left: 1px solid gray;
+}
+
+.experience ul li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.experience ul li h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.experience ul li img {
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: none;
+}
+
+.experience ul li h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.experience ul li p {
+  font-weight: 300;
+}
+
+.method {
+  padding-top: 24px;
+  background-color: #415165;
+}
+
+.method .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.method .container h2 {
+  font-weight: 500;
+  margin-bottom: 16px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.method .container span {
+  font-weight: 600;
+}
+
+.method .container ul li {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+
+.method .container ul li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.method .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.method .icon li {
+  margin: 8px 12px 40px 12px;
+}
+/*# sourceMappingURL=index.css.map */
