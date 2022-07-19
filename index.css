@@ -49,6 +49,18 @@ table {
   border-spacing: 0;
 }
 
+img {
+  vertical-align: middle;
+  margin: 48px 0;
+}
+
+img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .text-SFPro {
   font-family: SF Pro Text;
 }
@@ -67,21 +79,10 @@ h1 {
   border-bottom: 2px solid black;
 }
 
-.container img {
-  vertical-align: middle;
-  margin: 48px 0;
-}
-
-.container img:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
 .profile h2 {
   font-weight: 500;
   font-size: 32px;
+  font-family: "PingFang TC";
   line-height: 1.5;
   margin-bottom: 16px;
   padding-bottom: 7px;
@@ -102,6 +103,7 @@ h1 {
 
 .profile ul li {
   font-weight: 300;
+  font-family: "PingFang TC";
   font-size: 24px;
   line-height: 1.5;
 }
@@ -113,6 +115,7 @@ h1 {
 
 .education h2 {
   font-weight: 500;
+  font-family: "PingFang TC";
   font-size: 32px;
   line-height: 1.5;
   margin-bottom: 16px;
@@ -145,6 +148,7 @@ h1 {
 }
 
 .skills h2 {
+  font-family: "PingFang TC";
   font-weight: 500;
   width: 996px;
   margin: 0 auto;
@@ -178,6 +182,7 @@ h1 {
 }
 
 .experience h2 {
+  font-family: "PingFang TC";
   font-weight: 500;
   font-size: 32px;
   line-height: 1.5;
@@ -205,25 +210,19 @@ h1 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+  font-family: "PingFang TC";
 }
 
 .experience ul li h3 {
   font-size: 24px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .experience ul li img {
   margin: 0;
-  width: 100px;
-  height: 100px;
   padding: 0;
   border: none;
-}
-
-.experience ul li h4 {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 1.5;
 }
 
 .experience ul li p {
@@ -263,12 +262,6 @@ h1 {
   padding: 8px 0;
 }
 
-.method .container ul li a {
-  text-align: center;
-  color: white;
-  text-decoration: none;
-}
-
 .method .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,5 +273,11 @@ h1 {
 
 .method .icon li {
   margin: 8px 12px 40px 12px;
+}
+
+.method-link {
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
