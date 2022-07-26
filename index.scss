@@ -80,9 +80,9 @@ h1{
 			color:#A00404;
 		}
 	}
-	.profile-ul{
+	.profile-list{
 		margin-bottom: 24px;
-		.profile-li{
+		.profile-item{
 			font-weight: 300;
 			font-family: "PingFang TC";
 			font-size: 24px;
@@ -110,7 +110,7 @@ h1{
 		}
 	}
 	ul{
-		li{
+		.item{
 			font-size: 24px;
 			line-height: 1.5;
 		}
@@ -139,7 +139,7 @@ h1{
 	}
 	ul{
 		margin-top: 40px;
-		.skills-li{
+		.skills-item{
 			margin: 0px auto;
 			padding: 4px 0;
 			width: 225px;
@@ -169,17 +169,17 @@ h1{
 			font-weight: 600;
 		}
 	}
-	.txt{
+	.txt-title{
 		padding-left: 24px;
 		margin-left: 24px;
 		margin-bottom: 12px;
 		border-left: 1px solid gray;
-		.txt-li{
+		.txt-list{
 			font-size: 20px;
 			line-height: 1.5;
 			margin-bottom: 24px;
 			font-family: "PingFang TC";
-			.txt-h3{
+			& h3{
 				font-size: 24px;
 				line-height: 1.5;
 				font-weight: bold;
@@ -189,7 +189,7 @@ h1{
 				padding: 0;
 				border: none;
 			}
-			.txt-p{
+			& p{
 				font-weight: 300;
 			}
 		}
@@ -214,8 +214,8 @@ h1{
 		.method-span{
 			font-weight: 600;
 		}
-		ul{
-			li{
+		.method-list{
+			.method-item{
 				text-align: center;
 				color: white;
 				font-size: 24px;
